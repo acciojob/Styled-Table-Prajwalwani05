@@ -1,1 +1,18 @@
 /* your code */
+table{
+	radius:10px;
+	width:600px;
+	height:150px;
+	background:white;
+	border-collapse:collapse;
+	font-family:sans-serif
+}
+.head{
+	font-style:italic;
+	text-align:left;
+	background:cadetblue;
+	color:white;
+}
+.tr:nth-child(2n){
+	background:lightgray;
+}
